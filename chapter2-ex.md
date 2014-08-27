@@ -29,7 +29,7 @@ Output:An index i such that v = A[i] or the special value NIL if v does not ap
 Write pseudocode for linear search, which scans through the sequence, looking
 for. Using a loop invariant, prove that your algorithm is correct. Make sure that
 your loop invariant fulfills the three necessary properties.
-> Solution
+ Solution
 ```  
   for i = 1 to n
     if A[i] == v
@@ -37,7 +37,7 @@ your loop invariant fulfills the three necessary properties.
     end if
   end for
   return NIL
-```  
+
 ## 2.1-4
 Consider the problem of adding two n-bit binary integers, stored in two n-element
 arrays A and B. The sum of the two integers should be stored in binary form in
