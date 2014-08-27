@@ -2,8 +2,8 @@
 ## 2.1-1
 Using Figure 2.2 as a model, illustrate the operation of INSERTION-SORT on the array A = {31, 41, 59, 26, 41, 58}.
 > Solution
-> 31,41,59,26,41,58
-> 31,41,59,26,41,58
+  31,41,59,26,41,58
+  31,41,59,26,41,58
   31,41,59,26,41,58
   26,31,41,59,41,58
   26,31,41,41,59,58
@@ -30,13 +30,14 @@ Write pseudocode for linear search, which scans through the sequence, looking
 for. Using a loop invariant, prove that your algorithm is correct. Make sure that
 your loop invariant fulfills the three necessary properties.
 > Solution
+```  
   for i = 1 to n
     if A[i] == v
       return i
     end if
   end for
   return NIL
-  
+```  
 ## 2.1-4
 Consider the problem of adding two n-bit binary integers, stored in two n-element
 arrays A and B. The sum of the two integers should be stored in binary form in
