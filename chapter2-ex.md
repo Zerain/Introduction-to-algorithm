@@ -79,3 +79,6 @@ for i = 1 to n-1
  ![image of formula](http://latex.codecogs.com/gif.latex?%5CTheta%20%28%5Csum_%7Bi%3D1%7D%5E%7Bn%7Di%29%3D%5CTheta%20%28n_%7B%20%7D%5E%7B2%7D%29)
 
  - This hold for both the best-and-worst-case running time.
+
+## 2.2-3
+Consider linear search again (see Exercise 2.1-3). How many elements of the in put sequence need to be checked on the average, assuming that the element being searched for is equally likely to be any element in the array? How about in the worst case? What are the average-case and worst-case running times of linear search in Θ-notation? Justify your answers.
