@@ -15,14 +15,14 @@ Rewrite the INSERTION-SORT procedure to sort into nonincreasing instead of nonde
 > Solution
 ```
   INSERTION-SORT(A)
-    for j = 2 to A.length
-        key = A[j]
-        //Insert A[j] into the sorted sequence A[1..j-1]
-        i = j - 1
-        while i > 0 and A[i] < key
-          A[i+1] = A [i]
-          i = i - 1
-        A[i+1] = key
+  for j = 2 to A.length
+      key = A[j]
+      //Insert A[j] into the sorted sequence A[1..j-1]
+      i = j - 1
+      while i > 0 and A[i] < key
+        A[i+1] = A [i]
+        i = i - 1
+      A[i+1] = key
 
 ## 2.1-3
 Consider the searching problem:
@@ -48,19 +48,18 @@ adding the two integers.
 > Solition
 ```
   BINARY-ADD(A,B,C)
-    flag = 0
-    for j = 1 to n
-    key = A[j] + A[j] + flag
-    C[j] = key mod 2
-    if key > 1
-      flag = 1
-    if flag = 1
-      C[n+1] = 1
+  flag = 0
+  for j = 1 to n
+  key = A[j] + A[j] + flag
+  C[j] = key mod 2
+  if key > 1
+    flag = 1
+  if flag = 1
+    C[n+1] = 1
 
 ## 2.2-1
 Express the function ![image of n^3/1000 - 100n^2 - 100n + 3](http://latex.codecogs.com/gif.latex?n_%7B%20%7D%5E%7B3%7D/1000-100n_%7B%20%7D%5E%7B2%7D-100n&plus;3) in terms of Θ-notation.
 > Solution
-```
   ![image of theta^3](http://latex.codecogs.com/gif.latex?n_%7B%20%7D%5E%7B3%7D/1000-100n_%7B%20%7D%5E%7B2%7D-100n&plus;3%3D%5CTheta%20%28n_%7B%20%7D%5E%7B3%7D%29)
   
 ## 2.2-2
