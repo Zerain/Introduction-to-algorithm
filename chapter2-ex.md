@@ -74,8 +74,8 @@ for i = 1 to n-1
   A[i] = A[j]
   A[j] = temp
 
-> - As a loop invarient we choose that A(1,...,i-1) are sorted and all other elements are greater than these. We only need to iterate to n-1 since according to the invarient the nth element will then the largest.Then n calls of FIND-MIN gives the following bound on the time complexity:
+ - As a loop invarient we choose that A(1,...,i-1) are sorted and all other elements are greater than these. We only need to iterate to n-1 since according to the invarient the nth element will then the largest.Then n calls of FIND-MIN gives the following bound on the time complexity:
   
-> ![image of formula](http://latex.codecogs.com/gif.latex?%5CTheta%20%28%5Csum_%7Bi%3D1%7D%5E%7Bn%7Di%29%3D%5CTheta%20%28n_%7B%20%7D%5E%7B2%7D%29)
+ ![image of formula](http://latex.codecogs.com/gif.latex?%5CTheta%20%28%5Csum_%7Bi%3D1%7D%5E%7Bn%7Di%29%3D%5CTheta%20%28n_%7B%20%7D%5E%7B2%7D%29)
 
-> - This hold for both the best-and-worst-case running time.
+ - This hold for both the best-and-worst-case running time.
