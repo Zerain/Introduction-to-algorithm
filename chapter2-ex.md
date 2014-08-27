@@ -66,7 +66,7 @@ Consider sorting n numbers stored in array A by first finding the smallest eleme
 ```
   Assume that FIND-MIN(A,r,s) returns the index of the smallest element in A between indices r and s. 
   Clearly, this can be implemented in O(s-r) time if r>=s.
-  ``
+```   
   SELECTION-SORT
   Input: A = <a1,a2,...,an>
   Output: sorted A.
