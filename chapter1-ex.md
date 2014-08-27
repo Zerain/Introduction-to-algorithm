@@ -42,15 +42,15 @@ Give an example of an application that requires algorithmic content at the appli
 ## 1.2-2
 Suppose we are comparing implementations of insertion sort and merge sort on the same machine. For      inputs of size n,insertion sort runs in ![image of 8n^2](http://latex.codecogs.com/gif.latex?8n%5E%7B2%7D) steps, while merge sort runs in ![image of 64nlgn](http://latex.codecogs.com/gif.latex?%5C64%20nlg%20n) steps. For which values of n does insertion sort beat merge sort?
 > Solution
-![image of 8n^2<64nlgn](http://latex.codecogs.com/gif.latex?8n_%7B%20%7D%5E%7B2%7D%20%3C%20%5C64%20n%5Clg%20n)
-![image of n<8lgn](http://latex.codecogs.com/gif.latex?n%20%3C8%20%5Clg%20n)
-![image of n<43](http://latex.codecogs.com/gif.latex?%5C%20n%3C%2043)
+- ![image of 8n^2<64nlgn](http://latex.codecogs.com/gif.latex?8n_%7B%20%7D%5E%7B2%7D%20%3C%20%5C64%20n%5Clg%20n)
+- ![image of n<8lgn](http://latex.codecogs.com/gif.latex?n%20%3C8%20%5Clg%20n)
+- ![image of n<43](http://latex.codecogs.com/gif.latex?%5C%20n%3C%2043)
 
 ## 1.2-3
 What is the smallest value of n such that an algorithm whose running time is 100n^2 runs faster than an algorithm whose running time is2^n on the same machine?
 > Solution
-![image](http://latex.codecogs.com/gif.latex?100n%5E2%20%3C%202%5En)
-![image](http://latex.codecogs.com/gif.latex?n_%7Bmin%7D%3D15)
+- ![image](http://latex.codecogs.com/gif.latex?100n%5E2%20%3C%202%5En)
+- ![image](http://latex.codecogs.com/gif.latex?n_%7Bmin%7D%3D15)
 
 # Problem
 
