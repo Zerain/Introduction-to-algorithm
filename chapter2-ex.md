@@ -83,3 +83,5 @@ for i = 1 to n-1
 
 ## 2.2-3
 Consider linear search again (see Exercise 2.1-3). How many elements of the in put sequence need to be checked on the average, assuming that the element being searched for is equally likely to be any element in the array? How about in the worst case? What are the average-case and worst-case running times of linear search in Θ-notation? Justify your answers.
+> Solution
+- Given that each element is equally likely to be the one searched for and the element searched for is present in the array, a linear search will on the average have to search through half the elements. The is because half the search time the wanted element will be in the first half and half the time it will be in the second half. Both the worst-case and average-case of LINEAR-SEARCH is Θ(n).
