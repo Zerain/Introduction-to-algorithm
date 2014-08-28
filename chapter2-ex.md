@@ -1,6 +1,6 @@
 # Exercise
 ## 2.1-1
-Using Figure 2.2 as a model, illustrate the operation of INSERTION-SORT on the array A = {31, 41, 59, 26, 41, 58}.
+Using Figure 2.2 as a model, illustrate the operation of INSERTION-SORT on the array A = `<31, 41, 59, 26, 41, 58>`.
 > Solution
 ```
   31,41,59,26,41,58
@@ -92,7 +92,7 @@ How can we modify almost any algorithm to have a good best-case running time?
 - Modify the algorithm so it tests whether the input satisfies some special-case condition and, if it does, output a pre-computed answer. The best-case running time is generally not a good measure of an algorithm.
 
 ## 2.3-1
-Using Figure 2.4 as a model, illustrate the operation of merge sort on the array A = (3,41,52,26,38,57,9,49).
+Using Figure 2.4 as a model, illustrate the operation of merge sort on the array A = `<3,41,52,26,38,57,9,49>`.
 > Solution
 ```
                   3,9,26,38,41,49,52,57
