@@ -94,7 +94,7 @@ How can we modify almost any algorithm to have a good best-case running time?
 ## 2.3-1
 Using Figure 2.4 as a model, illustrate the operation of merge sort on the array A = <3,41,52,26,38,57,9,49>.
 > Solution
-                  3,9,26,38,41,49,52,57
-          3,26,41,52                9,38,49,57
-        3,41      26,52           9,49      38,57
-      3     41    52    26      38    57    9     49
+-                   3,9,26,38,41,49,52,57
+-           3,26,41,52                9,38,49,57
+-         3,41      26,52           9,49      38,57
+-       3     41    52    26      38    57    9     49
