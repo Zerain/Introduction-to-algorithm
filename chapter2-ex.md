@@ -99,3 +99,35 @@ Using Figure 2.4 as a model, illustrate the operation of merge sort on the array
           3,26,41,52                9,38,49,57
         3,41      26,52           9,49      38,57
       3     41    52    26      38    57    9     49
+      
+## 2.3-2
+Rewrite the MERGE procedure so that it does not use sentinels, instead stopping once either array L or R has had all its elements copied back to A and then copying the remainder of the other array back into A.
+> Solution
+```
+Merge(A[], p, q, r)
+    m = q - p + 1
+    n = r - q
+    L[1..m] = A[p..q]
+    R[1..n] = A[q+1..r]
+    // Copy into two array.
+    i = j = 1
+    for k = p to r
+        if i == m + 1   // L用完了，拷贝R
+            A[k..r] = R[j..n]
+            break
+        if j == n + 1   // R用完了，拷贝L
+            A[k..r] = L[i..m]
+            break
+        if L[i] <= R[j]
+            A[k] = L[i]
+            i++
+        else
+            A[k] = R[j]
+            j++
+
+## 2.3-3
+Use mathematical induction to show that when n is an exact power of 2,the solution of the recurrence
+![image of T(n)](http://latex.codecogs.com/gif.latex?T%28n%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%202%20%26%20%26%20%26%20if%20%5C%20n%20%3D%202%5C%5C%202T%28n/2%29&plus;n%20%26%20%26%20%26if%20%5C%20n%3D2_%7B%20%7D%5E%7Bk%7D%2Cfor%20%5C%20k%3E1%20%5Cend%7Bmatrix%7D%5Cright.)
+is
+![image of T(n)=nlgn](http://latex.codecogs.com/gif.latex?T%28n%29%3Dn%5Clg%20n)
+> Solution
