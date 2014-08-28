@@ -128,6 +128,7 @@ Merge(A[], p, q, r)
 ## 2.3-3
 Use mathematical induction to show that when n is an exact power of 2,the solution of the recurrence
 ![image of T(n)](http://latex.codecogs.com/gif.latex?T%28n%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%202%20%26%20%26%20%26%20if%20%5C%20n%20%3D%202%5C%5C%202T%28n/2%29&plus;n%20%26%20%26%20%26if%20%5C%20n%3D2_%7B%20%7D%5E%7Bk%7D%2Cfor%20%5C%20k%3E1%20%5Cend%7Bmatrix%7D%5Cright.)
+
 is
 ![image of T(n)=nlgn](http://latex.codecogs.com/gif.latex?T%28n%29%3Dn%5Clg%20n)
 > Solution
