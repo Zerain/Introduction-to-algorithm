@@ -132,8 +132,12 @@ Use mathematical induction to show that when n is an exact power of 2,the soluti
 is
 ![image of T(n)=nlgn](http://latex.codecogs.com/gif.latex?T%28n%29%3Dn%5Clg%20n)
 > Solution
-Basic case
-for n = 2, T(2) = 2lg2 = 2, condition holds.
-Assumed case
-for n = ![imgae of 2^t](http://latex.codecogs.com/gif.latex?2_%7B%20%7D%5E%7Bt%7D), ![image of T(2^T) = 2^t*lg(2t)](http://latex.codecogs.com/gif.latex?T%282_%7B%20%7D%5E%7Bt%7D%29%20%3D%202_%7B%20%7D%5E%7Bt%7D%5Clg2_%7B%20%7D%5E%7Bt%7D) is satisfied.
-Then when ![image of n=2^(t+1)](http://latex.codecogs.com/gif.latex?n%20%3D%202_%7B%20%7D%5E%7Bt&plus;1%7D), 
+- Basic case
+ - for n = 2, T(2) = 2lg2 = 2, condition holds.
+- Assumed case
+ - for n = ![imgae of 2^t](http://latex.codecogs.com/gif.latex?2_%7B%20%7D%5E%7Bt%7D), ![image of T(2^T) = 2^t*lg(2t)](http://latex.codecogs.com/gif.latex?T%282_%7B%20%7D%5E%7Bt%7D%29%20%3D%202_%7B%20%7D%5E%7Bt%7D%5Clg2_%7B%20%7D%5E%7Bt%7D) is satisfied.
+- Then when ![image of n=2^(t+1)](http://latex.codecogs.com/gif.latex?n%20%3D%202_%7B%20%7D%5E%7Bt&plus;1%7D), 
+ - ![image of T(2^(t+1))=2T(2^(t+1)/2+2^(t+1)](http://latex.codecogs.com/gif.latex?T%282_%7B%20%7D%5E%7Bt&plus;1%7D%29%3D2T%282_%7B%20%7D%5E%7Bt&plus;1%7D/2%29&plus;2_%7B%20%7D%5E%7Bt&plus;1%7D)
+ - ![image of =2T(2^t)+2^(t+!)](http://latex.codecogs.com/gif.latex?%3D2T%282_%7B%20%7D%5E%7Bt%7D%29&plus;2_%7B%20%7D%5E%7Bt&plus;1%7D)
+ - ![image of =2(2^tlg(2t))+2^(t+1)](http://latex.codecogs.com/gif.latex?%3D2%282_%7B%20%7D%5E%7Bt%7D%5Clg2t%29&plus;2_%7B%20%7D%5E%7Bt&plus;1%7D)
+ - ![image of =2^(t+1)lg(2^(t+1))](http://latex.codecogs.com/gif.latex?%3D%202_%7B%20%7D%5E%7Bt&plus;1%7D%5Clg2_%7B%20%7D%5E%7Bt&plus;1%7D)
